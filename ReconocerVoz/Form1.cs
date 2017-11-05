@@ -16,5 +16,10 @@ namespace ReconocerVoz
         {
             InitializeComponent();
         }
+
+        private void btnHabilitar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
