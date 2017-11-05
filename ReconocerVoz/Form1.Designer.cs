@@ -61,6 +61,7 @@
             this.btnDeshabilitar.Size = new System.Drawing.Size(100, 23);
             this.btnDeshabilitar.TabIndex = 4;
             this.btnDeshabilitar.Text = "Deshabilitar Voz";
+            this.btnDeshabilitar.Click += new System.EventHandler(this.btnDeshabilitar_Click);
             // 
             // Form1
             // 
@@ -72,6 +73,7 @@
             this.Controls.Add(this.btnHabilitar);
             this.Name = "Form1";
             this.Text = "Reconocer Voz";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
